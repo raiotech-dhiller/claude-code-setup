@@ -15,6 +15,18 @@ logs/
 # Insights (regenerated)
 insights/
 
+# Runtime directories (regenerated)
+cache/
+debug/
+shell-snapshots/
+statsig/
+todos/
+projects/
+file-history/
+
+# Session files
+history.jsonl
+
 # Credentials
 *credentials*
 *secret*
