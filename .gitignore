@@ -1,0 +1,21 @@
+# Environment and secrets
+.env
+.env.*
+*.local
+
+# Logs
+*.log
+logs/
+
+# Temp files
+*.tmp
+*.bak
+.DS_Store
+
+# Insights (regenerated)
+insights/
+
+# Credentials
+*credentials*
+*secret*
+*token*
