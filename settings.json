@@ -60,7 +60,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "echo \"$(date +%Y-%m-%dT%H:%M:%S) Session ended\" >> ~/.claude/insights/sessions/$(date +%Y%m%d).log",
+            "command": "~/.claude/hooks/log-session-end.sh",
             "timeout": 5
           }
         ]
@@ -72,7 +72,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "echo \"$(date +%Y-%m-%dT%H:%M:%S) File modified\" >> ~/.claude/insights/sessions/$(date +%Y%m%d).log",
+            "command": "~/.claude/hooks/log-file-modification.sh",
             "timeout": 5
           }
         ]

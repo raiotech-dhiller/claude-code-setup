@@ -142,3 +142,20 @@ After code changes:
 - Use git worktrees for full isolation
 - Each worktree gets its own Claude instance
 - Orchestrator coordinates via shared HANDOFF.md or scratchpad files
+
+## Insight Logging
+
+When you discover something worth preserving:
+1. **During work**: Mention "I'll note this insight about [topic]"
+2. **Log format** (append to `~/.claude/insights/sessions/YYYY-MM-DD.md`):
+
+```
+## [HH:MM] Brief Title
+**Category**: bug-fix | pattern | decision | optimization | dependency
+**Context**: [What was being worked on]
+**Discovery**: [What was learned]
+**Reusability**: high | medium | low
+**Integration Target**: [skill name | CLAUDE.md section | new skill]
+```
+
+3. **Review trigger**: After significant tasks, suggest `/project:reflect`
