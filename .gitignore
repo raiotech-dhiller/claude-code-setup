@@ -27,6 +27,12 @@ file-history/
 # Session files
 history.jsonl
 
+# IDE lock files
+ide/*.lock
+
+# Stats cache
+stats-cache.json
+
 # Credentials
 *credentials*
 *secret*
