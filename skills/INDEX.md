@@ -14,7 +14,7 @@ Catalog of all available skills organized by category.
 | Client | client-communication, client-onboarding, client-deliverable, pricing-justification |
 | Mobile | react-native, expo-deployment |
 | Quality | testing-strategies, security-patterns, security-audit, mvp-readiness |
-| Workflow | git-workflows, github-patterns, skill-generator |
+| Workflow | git-workflows, github-patterns, skill-generator, skill-maintenance |
 | Database | supabase, supabase-migration-cleanup, database-optimization |
 
 ---
@@ -196,6 +196,10 @@ Token-efficient GitHub workflows, PR patterns, and repository management.
 ### skill-generator
 Create new Claude Code skills with proper structure and YAML frontmatter.
 **Use when**: Creating a new skill, documenting reusable knowledge, or saving solutions for future projects.
+
+### skill-maintenance
+Maintain skills index and verify skill integrity.
+**Use when**: Adding new skills, auditing existing skills, or checking for orphan references between agents and skills.
 
 ---
 

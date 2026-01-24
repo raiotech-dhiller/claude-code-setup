@@ -143,6 +143,39 @@ After code changes:
 - Each worktree gets its own Claude instance
 - Orchestrator coordinates via shared HANDOFF.md or scratchpad files
 
+---
+
+## MCP Server Configuration
+
+MCP servers are configured in `.mcp.json` (not `settings.json`):
+
+```json
+{
+  "mcpServers": {
+    "server-name": {
+      "command": "npx",
+      "args": ["-y", "@org/server-package"],
+      "env": {
+        "API_KEY": "${ENV_VAR}"
+      }
+    }
+  }
+}
+```
+
+### Configuration Locations
+- `~/.claude/.mcp.json` - Personal (all projects)
+- `.mcp.json` - Project-specific (in project root)
+
+### Available MCP Servers
+- `github` - GitHub API operations (PRs, issues, releases)
+- `supabase` - Database operations, migrations, Edge Functions
+
+### Environment Variables
+Use `${VAR_NAME}` syntax for secrets. The actual values should be in your shell environment or `.env` file.
+
+---
+
 ## Insight Logging
 
 When you discover something worth preserving:
@@ -159,3 +192,15 @@ When you discover something worth preserving:
 ```
 
 3. **Review trigger**: After significant tasks, suggest `/project:reflect`
+
+---
+
+## Client Engagement Closures
+
+When wrapping up client engagements:
+
+1. **Clarify scope first**: "What commits/work represent MY contribution vs. prior work?"
+2. **Generate deliverable**: Use `client-deliverable` skill for work summaries
+3. **Prepare pricing defense**: Use `pricing-justification` skill if value defense needed
+4. **Keep justification internal**: Only share pricing rationale if pushback occurs
+5. **Output files**: Save to project root, do not commit to git
