@@ -89,7 +89,8 @@ After feature completion or significant changes:
 - `react-specialist`: Frontend, components, state, styling
 - `react-native-specialist`: Mobile apps, Expo, cross-platform
 - `supabase-specialist`: Database, RLS, Edge Functions, migrations
-- `aws-specialist`: Infrastructure, deployment, CI/CD
+- `aws-specialist`: AWS infrastructure, deployment, CI/CD
+- `gcp-specialist`: GCP infrastructure, Cloud Run, Firebase
 - `wordpress-specialist`: Themes, plugins, Gutenberg
 - `code-reviewer`: Quality, security, best practices
 - `knowledge-curator`: Manages skill/doc updates

@@ -7,7 +7,7 @@ description: |
   PROACTIVELY invoke for any writing, messaging, or content tasks.
 model: sonnet
 tools: Read, Write, Edit, Glob, Grep
-skills: copywriting, ux-writing, brand-voice, content-strategy
+skills: copywriting, ux-writing, brand-voice, content-strategy, client-onboarding
 color: coral
 ---
 

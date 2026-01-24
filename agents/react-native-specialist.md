@@ -7,7 +7,7 @@ description: |
   PROACTIVELY invoke for any React Native or mobile tasks.
 model: sonnet
 tools: Read, Write, Edit, Bash, Glob, Grep
-skills: react-native, typescript-patterns
+skills: react-native, typescript-patterns, expo-deployment, accessibility-patterns
 color: blue
 ---
 

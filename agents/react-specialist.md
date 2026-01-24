@@ -7,7 +7,7 @@ description: |
   PROACTIVELY invoke for any React web frontend tasks.
 model: sonnet
 tools: Read, Write, Edit, Bash, Glob, Grep
-skills: react-patterns, typescript-patterns, testing-strategies
+skills: react-patterns, typescript-patterns, testing-strategies, accessibility-patterns
 color: cyan
 ---
 

@@ -7,7 +7,7 @@ description: |
   PROACTIVELY invoke for any infrastructure or deployment tasks.
 model: sonnet
 tools: Read, Write, Edit, Bash, Glob, Grep
-skills: aws-deployment, ci-cd-pipelines, docker-patterns, security-patterns
+skills: aws-deployment, ci-cd-pipelines, docker-patterns, security-patterns, monitoring-observability
 color: orange
 ---
 
